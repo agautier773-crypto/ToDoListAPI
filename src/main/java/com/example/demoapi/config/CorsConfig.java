@@ -18,7 +18,8 @@ public class CorsConfig {
                 "http://localhost:5173",
                 "tauri://localhost",
                 "http://tauri.localhost",
-                "https://tauri.localhost"
+                "https://tauri.localhost",
+                "*"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
